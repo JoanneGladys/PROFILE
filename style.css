@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+<!...HEADER STYLES..>
+.header{
+    display: flex;
+    margin: 10px 30px;
+}
+.header-socials{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-socials a{
+    color: black;
+    font-size: 30px;
+}
+.header-contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* NAVIGATION BAR STYLES */
+.nav{
+    background-color: antiquewhite;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav .logo h2{
+color: black;
+font-size: 44px;
+font-weight: bold;
+font-family: "Dancing Script", cursive;
+}
+
+.nav-elements ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav-elements ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-button{
+    background-color: aquamarine;
+    color: aqua;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*HERO SECTION STYLES*/
+.hero-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 30px;
+    justify-content: center;
+}
+.hero-section img{
+    width: 400px;
+    border-radius: 10px;
+}
+/*SERVICE SECTION STYLES*/
+.service-section{
+    display: flex;
+    padding: 50px 30px;
+    text-align: center;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.service-section div{
+    background: grey;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.services-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.services-container i{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.testimonials h6{
+    font-size:20px ;
+}
+
+.footer h6{
+    font-size: 20px;
+}
+
+.contact h6{
+    font-size: 20px;
+}
+
+.services h6{
+    font-size: 20px;
+}
